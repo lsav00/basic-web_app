@@ -7,9 +7,6 @@
 	<link rel="stylesheet" href="styles.css">
 	<script>
 
-	function pass_validate(){
-		return;
-	}
 
 	function Validate() {
 
@@ -51,7 +48,7 @@
 				alert ("Your password is missing a number");
 				return false;	
 			}	
-			if (/[^a-z0-9]$/i.test(p)) {} else {
+			if (/[^a-zA-Z0-9]$/.test(p)) {} else {
 				alert ("Your password is missing a symbol");
 				return false;
 			}
@@ -65,13 +62,14 @@
 
 	<ul>
 		<li><a href="index.php">Home</a></li>
-		<li><a href="acctlogin.php">Login</a></li>
+		<li><a href="acctlogin1a.php">Login</a></li>
+		<li><a href="logout.php">Logout</a></li>
 	</ul>
 	
 	<h1>Register</h1>
 	<p>Please fill out the form below. It must be completed in its entirety. </p>
 
-<!--The form code -->
+							<!--THE FORM  -->
 
 	<form action="" name = "accountcreate" method="POST" onsubmit="return Validate()"> 
 		<p>
@@ -89,25 +87,40 @@
     		</p>
 		<input name = 'submit' type="submit" value="Create your account">
 	</form>
-<!--End of the form -->
+							<!--END OF THE FORM -->
 
 <?php
 
+							//CREATE CONNECTION
 $conn = new mysqli('localhost','lsav','abc123','users');
 
-// Prepared statement for protection vs injection
-$stmt = $conn->prepare("INSERT INTO people (username, fname, lname, pass) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("ssss", $username, $fname, $lname, $pass);
+							//CREATE PREPARED STATEMENT TO PROTECT VS. INJECTION
 
-$username = $_POST['username'];
+$stmt = $conn->prepare("INSERT INTO people (username, fname, lname, pass) VALUES (?, ?, ?, ?)");	
+$stmt->bind_param("ssss", $username, $fname, $lname, $hashPassword);
+
+
+$username = $_POST['username'];				//ASSIGN POSTED VARIABLES TO $VARIABLES
 $fname= $_POST['fname'];
 $lname= $_POST['lname'];
-$pass= md5($_POST['pass']);
-$stmt->execute();
+$pass= $_POST['pass'];
 
-$stmt->close();
-$conn->close();
+$hashPassword = password_hash($pass,PASSWORD_BCRYPT); 	//ADD BCRYPT TO PASSWORD
 
+$stmt->execute();					//EXECUTE THE PREPARED STATEMENT
+$stmt->close();						//CLOSE THE PREPARED STATEMENT
+$conn->close();						//CLOSE THE CONNECTION
+
+
+							//REDIRECT TO ACCTLOGIN AFTER FORM SUBMITTED
+if(isset($_POST['submit']))				//IF FORM'S POST IS SET...
+	{			
+	?>						<!--EXIT PHP...-->
+	<script type="text/javascript">			//START JAVASCRIPT...
+		window.location = "acctlogin1a.php";	//RELOCATE TO ACCTLOGIN...
+	</script>					<!--EXIT JAVASCRIPT...-->
+	<?php						//START PHP...
+	}						//END IF STATEMENT
 ?>
 
 </body>

@@ -14,6 +14,7 @@ if(!isset($_SESSION['username'])){
 		<ul>
 			<li><a href="index.php">Home</a></li>
 			<li><a href="acctlogin1a.php">Login</a></li>
+			<li><a href="logout.php">Logout</a></li>
 		</ul>
 		<h1>Members Page</h1>	
 
