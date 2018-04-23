@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['username'])){
-   header("Location:acctlogin1a.php");
+   header("Location:acctlogin1b.php");
 }
 ?>
 
@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
 	<BODY>
 		<ul>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="acctlogin1a.php">Login</a></li>
+			<li><a href="acctlogin1b.php">Login</a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
 		<h1>Members Page</h1>	

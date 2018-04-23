@@ -62,7 +62,7 @@
 
 	<ul>
 		<li><a href="index.php">Home</a></li>
-		<li><a href="acctlogin1a.php">Login</a></li>
+		<li><a href="https://10.0.17.61/acctlogin1b.php">Login</a></li>
 		<li><a href="logout.php">Logout</a></li>
 	</ul>
 	
@@ -117,7 +117,7 @@ if(isset($_POST['submit']))				//IF FORM'S POST IS SET...
 	{			
 	?>						<!--EXIT PHP...-->
 	<script type="text/javascript">			//START JAVASCRIPT...
-		window.location = "acctlogin1a.php";	//RELOCATE TO ACCTLOGIN...
+		window.location = "acctlogin1b.php";	//RELOCATE TO ACCTLOGIN...
 	</script>					<!--EXIT JAVASCRIPT...-->
 	<?php						//START PHP...
 	}						//END IF STATEMENT

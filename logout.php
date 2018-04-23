@@ -1,6 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header('Location: acctlogin1a.php');
+header('Location: acctlogin1b.php');
 exit;
 ?>
