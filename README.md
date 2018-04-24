@@ -6,4 +6,4 @@
 
 **JavaScript & Regex:** create-account validation (register3a.php)
 
-**PHP & MYSQLI:** prepared statement queries to mysqli database
+**PHP & MYSQLI:** prepared statement inserts into mysqli database and bcrypt the passwords
