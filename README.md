@@ -45,7 +45,7 @@ The image below shows the ACL associated with the resource containing the EC2 vi
 
 The image below shows the Security Group configuration that allows web traffic and SSH from specific, authenticated, public IP addresses.  It also shows an SSH connection to the VM from a Kali machine.
 
-![alt text](screenshots/SSHcnx.jpg "SSH connection")
+![alt text](screenshots/SSHcnx1.jpg "SSH connection")
 
 **Remove server version from header**
 
