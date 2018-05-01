@@ -51,7 +51,7 @@ The image below shows the Security Group configuration that allows web traffic a
 
 The server version is removed from the webserver header to prevent unnecessarily volunteering detailed server information to attackers. The image below shows the before and after displays regarding configuring httpd.conf ServerToken entry to eliminate the server version from the header.
 
-![alt text](screenshots/versionheader.jpg "version header removal")
+![alt text](screenshots/versionheader1.jpg "version header removal")
 
 **Setup Linux-Apache-MySQL-PHP (LAMP) stack on EC2 virtual machine**
 
