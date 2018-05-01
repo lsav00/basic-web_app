@@ -33,7 +33,7 @@ The CloudFront configuration below shows the following security-related details:
 
 ACLs contain firewall-related rules against specific attacks.  The ACL below, **webacl**, contains two rules, **rule1** and **Trend Micro Managed Rules**
 
-![alt text](screenshots/webacl1.jpg "webacl rules")
+![alt text](screenshots/webacl1a.jpg "webacl rules")
 
 The image below shows the ACL associated with the resource containing the EC2 virtual machine.
 
