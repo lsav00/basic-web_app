@@ -43,7 +43,7 @@ The image below shows the ACL associated with the resource containing the EC2 vi
 
 **Connecting to EC2 Linux AMI virtual machine (VM) ussing SSH**
 
-The image below shows the Security Group configuration that allows web traffic and SSH from specific, authenticated, public IP addresses.  It also shows an SSH connection to the VM.
+The image below shows the Security Group configuration that allows web traffic and SSH from specific, authenticated, public IP addresses.  It also shows an SSH connection to the VM from a Kali machine.
 
 ![alt text](screenshots/SSHcnx.jpg "SSH connection")
 
