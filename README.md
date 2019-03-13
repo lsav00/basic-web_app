@@ -1,3 +1,9 @@
+# Android Studio
+
+# Github Notes
+
+https://docs.google.com/document/d/1wJpQadYbRluA4ZQLzxm8DWUSMSXM_dyXsWdlkZ6DwlA/edit?usp=sharing
+
 # Basic website containing multiple security features and hosted via AWS. 
 
 **HTML:** account login form with username and password
@@ -7,8 +13,6 @@
 **JavaScript & Regex:** create-account validation
 
 **PHP & MYSQLI:** prepared statement inserts into mysqli database and bcrypt the passwords
-
-# AWS
 
 **Identity & Access Management (IAM)**
 Manage users, permissions and encryption keys in IAM.  I created an Administrator User and Administrators Group and completed the basic security tasks, including deleting root access keys, activating multi-factor authentication (MFA), set permission and applied a password policy.
