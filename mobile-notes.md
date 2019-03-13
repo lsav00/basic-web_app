@@ -4,6 +4,20 @@
 
 https://developer.android.com/studio
 
+Install:
+
+https://developer.android.com/courses/fundamentals-training/overview-v2
+
+Android Developer Fundamentals (Version 2)
+
+The course materials include:
+
+Practical workbooks in the form of codelabs, which include suggested homework assignments: Codelabs for Android Developer Fundamentals (V2)
+https://developer.android.com/courses/fundamentals-training/toc-v2
+Concept reference chapters: Android Developer Fundamentals (Version 2) — Concepts
+Slide decks
+Source code in GitHub for starter apps and solution code for apps that you create during the practical codelabs
+
 ## ios
 
 ### How To Develop iOS Apps On A Windows PC
