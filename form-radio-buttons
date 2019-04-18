@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>Game</TITLE>
+<link rel="stylesheet" href="styles.css">
+</HEAD>
+<BODY>
+	<p>Welcome!</p>
+  
+  <!--In form action below, in the quotes is where you can insert a URL to redirect the user to upon submitting the form-->
+	<form action="" method="post">
+
+		Name: <input type="text" name="name"><br>
+
+		Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+
+		Gender:
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="male">Male
+
+		<input type="submit">
+		
+	</form>
+	
+	
+</BODY>
+</HTML>
