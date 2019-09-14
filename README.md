@@ -3,20 +3,6 @@
 
 https://docs.google.com/document/d/1xszK3928ukVJ1SGb6VQzM-mPMZ2btyo3calC7Js8hz8/edit?usp=sharing
 
-Notes Table of Contents:
-
-1. Setting up Apache2, 
-2. Blacklisting IPs with .htaccess
-3. Custom 404 error pages
-4. GET vs POST
-5. Git implementation
-6. HTML/CSS snippets
-7. MySQL snippets
-8. PHP snippets
-9. Input Validation
-10. XAMPP installation
-11. XSS attack example
-
 # Github Notes
 
 https://docs.google.com/document/d/1wJpQadYbRluA4ZQLzxm8DWUSMSXM_dyXsWdlkZ6DwlA/edit?usp=sharing
