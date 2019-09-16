@@ -1,7 +1,7 @@
 
 # Web App Notes
 
-https://docs.google.com/document/d/1xszK3928ukVJ1SGb6VQzM-mPMZ2btyo3calC7Js8hz8/edit?usp=sharing
+https://docs.google.com/document/d/18LjeYHzd4y7kXICJMxhN5R5L1P4TVr2Wnh3ndIdBDUY/edit?usp=sharing
 
 # Github Notes
 
