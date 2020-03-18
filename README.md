@@ -8,3 +8,5 @@ https://docs.google.com/document/d/1wJpQadYbRluA4ZQLzxm8DWUSMSXM_dyXsWdlkZ6DwlA/
 
 # AWS notes
 https://sites.google.com/view/it-grilled-cheese/aws
+
+Having a good time over here.
