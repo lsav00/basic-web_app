@@ -1,5 +1,5 @@
-<HTML>
-	<HEAD>
+<html>
+	<head>
 		<TITLE>LS LAW</TITLE>
 		<link rel="stylesheet" href="styles.css">
 		<script>
@@ -7,8 +7,8 @@
 				alert("No you're not.")
 			}
 		</script>
-	</HEAD>
-	<BODY>
+	</head>
+	<body>
 		<ul> 	<!--NAV BAR -->
 			<li><a href="index.php">Home</a></li>
 			<li><a href="https://10.0.17.61/acctlogin1b.php">Login</a></li>
@@ -20,6 +20,6 @@
 		<div style="text-align: center;">
 			<button type="button" onclick="root()">I am root</button>	
 		</div>
-	</BODY>
+	</body>
 
-</HTML>
+</html>
