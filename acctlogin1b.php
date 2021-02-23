@@ -9,7 +9,7 @@
 	<BODY>
 		<ul>
 			<li><a href="index.php">Home</a></li>
-			<li><a href="https://10.0.17.61/acctlogin1b.php">Login</a></li>
+			<li><a href="acctlogin1b.php">Login</a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>
 		<h1>Account Login</h1>						<!--THE FORM-->
@@ -23,7 +23,7 @@
 			</form>
 										<!--END OF THE FORM-->
 
-		<a href="https://10.0.17.61/register3a.php">Create Account</a>			<!--CREATE ACCOUNT LINK-->
+		<a href="register3a.php">Create Account</a>			<!--CREATE ACCOUNT LINK-->
 	</BODY>
 
 </HTML>										<!--END OF HTML-->
