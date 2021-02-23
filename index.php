@@ -11,7 +11,7 @@
 	<body>
 		<ul> 	<!--NAV BAR -->
 			<li><a href="index.php">Home</a></li>
-			<li><a href="https://10.0.17.61/acctlogin1b.php">Login</a></li>
+			<li><a href="acctlogin1b.php">Login</a></li>
 			<li><a href="logout.php">Logout</a></li>
 		</ul>	
 			<!--HEADER-->
